@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+.minus {
+    padding: 5px 10px;
+ background-color: chartreuse;
+ color: black;
+  font-size: 30px;
+}
+.plus {
+    padding: 5px;
+  font-size: 30px;
+   background-color: chartreuse;
+ color: black;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  width: 300px;
+  height: 0;
+  background-color: rgb(243, 81, 81);
+}
+.box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+}
+.conteiner{
+   height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding:10px ;
+    background-color: aqua;
+}
+.conteiner-2{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+.one{
+  padding: 5px;
+  font-size: 26px;
+}
+.two{
+    padding: 5px;
+  font-size: 26px;
+}
+.three{
+    padding: 5px;
+  font-size: 26px;
+}
+.super-menu{
+color: white;
+transition: 0.3s;
+}
+.super-menu:hover{
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ultra{
+   background-color: aqua;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+     overflow: hidden;
+  width: 300px;
+   height: 0;
+}
+.value{
+  outline: none;
+  border: none;
+  font-size: 22px;
+  padding: 3px;
+}
+.ultra-menu{
+  margin-bottom: 30px;
+}
+.ultra-title{
+  text-align: center;
+  color: white;
+}
+.conteiner-3{
+  height: 300px;
+}
+.conteiner-2{
+   height: 300px;
+}
+
+.input-button{
+  padding: 10px;
+  font-size: 29px;
+  margin-top: 30px;
+} 
+
+.done {
+   transition-duration: 0.7s;
+  height: 100%;
+}
